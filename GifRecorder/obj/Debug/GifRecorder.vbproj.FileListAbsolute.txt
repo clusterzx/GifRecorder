@@ -11,3 +11,19 @@ E:\####Visual Basic Projects\####VS 2017\GifRecorder\GifRecorder\obj\Debug\GifRe
 E:\####Visual Basic Projects\####VS 2017\GifRecorder\GifRecorder\obj\Debug\GifRecorder.pdb
 E:\####Visual Basic Projects\####VS 2017\GifRecorder\GifRecorder\obj\Debug\GifRecorder.frmSettings.resources
 E:\####Visual Basic Projects\####VS 2017\GifRecorder\GifRecorder\obj\Debug\GifRecorder.vbproj.CopyComplete
+E:\####Visual Basic Projects\####VS 2017\GifRecorder\GifRecorder\obj\Debug\GifRecorder.vbprojResolveAssemblyReference.cache
+E:\####Visual Basic Projects\####VS 2017\GifRecorder 2.0\GifRecorder\bin\Debug\GifRecorder.exe.config
+E:\####Visual Basic Projects\####VS 2017\GifRecorder 2.0\GifRecorder\bin\Debug\GifRecorder.exe
+E:\####Visual Basic Projects\####VS 2017\GifRecorder 2.0\GifRecorder\bin\Debug\GifRecorder.pdb
+E:\####Visual Basic Projects\####VS 2017\GifRecorder 2.0\GifRecorder\bin\Debug\GifRecorder.xml
+E:\####Visual Basic Projects\####VS 2017\GifRecorder 2.0\GifRecorder\obj\Debug\GifRecorder.frmMain.resources
+E:\####Visual Basic Projects\####VS 2017\GifRecorder 2.0\GifRecorder\obj\Debug\GifRecorder.frmSettings.resources
+E:\####Visual Basic Projects\####VS 2017\GifRecorder 2.0\GifRecorder\obj\Debug\GifRecorder.Resources.resources
+E:\####Visual Basic Projects\####VS 2017\GifRecorder 2.0\GifRecorder\obj\Debug\GifRecorder.vbproj.GenerateResource.cache
+E:\####Visual Basic Projects\####VS 2017\GifRecorder 2.0\GifRecorder\obj\Debug\GifRecorder.vbproj.CoreCompileInputs.cache
+E:\####Visual Basic Projects\####VS 2017\GifRecorder 2.0\GifRecorder\obj\Debug\GifRecorder.vbproj.CopyComplete
+E:\####Visual Basic Projects\####VS 2017\GifRecorder 2.0\GifRecorder\obj\Debug\GifRecorder.exe
+E:\####Visual Basic Projects\####VS 2017\GifRecorder 2.0\GifRecorder\obj\Debug\GifRecorder.xml
+E:\####Visual Basic Projects\####VS 2017\GifRecorder 2.0\GifRecorder\obj\Debug\GifRecorder.pdb
+E:\####Visual Basic Projects\####VS 2017\GifRecorder 2.0\GifRecorder\obj\Debug\GifRecorder.frmSplashScreen.resources
+E:\####Visual Basic Projects\####VS 2017\GifRecorder 2.0\GifRecorder\obj\Debug\GifRecorder.vbprojResolveAssemblyReference.cache

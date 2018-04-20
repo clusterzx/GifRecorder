@@ -28,11 +28,16 @@ Partial Class frmSettings
         Me.cmdSave = New System.Windows.Forms.Button()
         Me.folderBrowser = New System.Windows.Forms.FolderBrowserDialog()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
-        Me.lblQuality = New System.Windows.Forms.Label()
-        Me.Label1 = New System.Windows.Forms.Label()
         Me.cmbQuality = New System.Windows.Forms.ComboBox()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.lblQuality = New System.Windows.Forms.Label()
+        Me.GroupBox3 = New System.Windows.Forms.GroupBox()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.cmbEncoder = New System.Windows.Forms.ComboBox()
+        Me.txtEncoderInfo = New System.Windows.Forms.TextBox()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
+        Me.GroupBox3.SuspendLayout()
         Me.SuspendLayout()
         '
         'GroupBox1
@@ -64,7 +69,7 @@ Partial Class frmSettings
         '
         'cmdSave
         '
-        Me.cmdSave.Location = New System.Drawing.Point(12, 144)
+        Me.cmdSave.Location = New System.Drawing.Point(12, 271)
         Me.cmdSave.Name = "cmdSave"
         Me.cmdSave.Size = New System.Drawing.Size(357, 27)
         Me.cmdSave.TabIndex = 1
@@ -81,25 +86,7 @@ Partial Class frmSettings
         Me.GroupBox2.Size = New System.Drawing.Size(357, 71)
         Me.GroupBox2.TabIndex = 0
         Me.GroupBox2.TabStop = False
-        Me.GroupBox2.Text = "Set quality (changes speed of encoding | 1 to 20)"
-        '
-        'lblQuality
-        '
-        Me.lblQuality.AutoSize = True
-        Me.lblQuality.Location = New System.Drawing.Point(6, 25)
-        Me.lblQuality.Name = "lblQuality"
-        Me.lblQuality.Size = New System.Drawing.Size(211, 13)
-        Me.lblQuality.TabIndex = 1
-        Me.lblQuality.Text = "You can select the quality of your GIF here."
-        '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(7, 45)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(253, 13)
-        Me.Label1.TabIndex = 1
-        Me.Label1.Text = "The higher the quality, the longer it takes to encode."
+        Me.GroupBox2.Text = "Set quality (only for built in encoder)"
         '
         'cmbQuality
         '
@@ -111,11 +98,71 @@ Partial Class frmSettings
         Me.cmbQuality.Size = New System.Drawing.Size(128, 21)
         Me.cmbQuality.TabIndex = 2
         '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Location = New System.Drawing.Point(7, 45)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(253, 13)
+        Me.Label1.TabIndex = 1
+        Me.Label1.Text = "The higher the quality, the longer it takes to encode."
+        '
+        'lblQuality
+        '
+        Me.lblQuality.AutoSize = True
+        Me.lblQuality.Location = New System.Drawing.Point(6, 25)
+        Me.lblQuality.Name = "lblQuality"
+        Me.lblQuality.Size = New System.Drawing.Size(211, 13)
+        Me.lblQuality.TabIndex = 1
+        Me.lblQuality.Text = "You can select the quality of your GIF here."
+        '
+        'GroupBox3
+        '
+        Me.GroupBox3.Controls.Add(Me.Label2)
+        Me.GroupBox3.Controls.Add(Me.cmbEncoder)
+        Me.GroupBox3.Controls.Add(Me.txtEncoderInfo)
+        Me.GroupBox3.Location = New System.Drawing.Point(12, 144)
+        Me.GroupBox3.Name = "GroupBox3"
+        Me.GroupBox3.Size = New System.Drawing.Size(357, 121)
+        Me.GroupBox3.TabIndex = 2
+        Me.GroupBox3.TabStop = False
+        Me.GroupBox3.Text = "Endcoder"
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Location = New System.Drawing.Point(7, 22)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(180, 13)
+        Me.Label2.TabIndex = 2
+        Me.Label2.Text = "Choose your prefered encoder here :"
+        '
+        'cmbEncoder
+        '
+        Me.cmbEncoder.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.cmbEncoder.FormattingEnabled = True
+        Me.cmbEncoder.Items.AddRange(New Object() {"Built in - v0.2", "ffmpeg - v3.4.2", "gifski -v0.8.2"})
+        Me.cmbEncoder.Location = New System.Drawing.Point(213, 19)
+        Me.cmbEncoder.Name = "cmbEncoder"
+        Me.cmbEncoder.Size = New System.Drawing.Size(135, 21)
+        Me.cmbEncoder.TabIndex = 1
+        '
+        'txtEncoderInfo
+        '
+        Me.txtEncoderInfo.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtEncoderInfo.Location = New System.Drawing.Point(9, 47)
+        Me.txtEncoderInfo.Multiline = True
+        Me.txtEncoderInfo.Name = "txtEncoderInfo"
+        Me.txtEncoderInfo.ReadOnly = True
+        Me.txtEncoderInfo.Size = New System.Drawing.Size(339, 68)
+        Me.txtEncoderInfo.TabIndex = 0
+        '
         'frmSettings
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(380, 174)
+        Me.ClientSize = New System.Drawing.Size(379, 303)
+        Me.Controls.Add(Me.GroupBox3)
         Me.Controls.Add(Me.cmdSave)
         Me.Controls.Add(Me.GroupBox2)
         Me.Controls.Add(Me.GroupBox1)
@@ -127,6 +174,8 @@ Partial Class frmSettings
         Me.GroupBox1.PerformLayout()
         Me.GroupBox2.ResumeLayout(False)
         Me.GroupBox2.PerformLayout()
+        Me.GroupBox3.ResumeLayout(False)
+        Me.GroupBox3.PerformLayout()
         Me.ResumeLayout(False)
 
     End Sub
@@ -140,4 +189,8 @@ Partial Class frmSettings
     Friend WithEvents cmbQuality As ComboBox
     Friend WithEvents Label1 As Label
     Friend WithEvents lblQuality As Label
+    Friend WithEvents GroupBox3 As GroupBox
+    Friend WithEvents txtEncoderInfo As TextBox
+    Friend WithEvents Label2 As Label
+    Friend WithEvents cmbEncoder As ComboBox
 End Class

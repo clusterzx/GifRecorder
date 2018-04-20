@@ -83,6 +83,7 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Backup.vb" />
     <Compile Include="frmMain.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -94,6 +95,12 @@
       <DependentUpon>frmSettings.vb</DependentUpon>
     </Compile>
     <Compile Include="frmSettings.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSplashScreen.Designer.vb">
+      <DependentUpon>frmSplashScreen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmSplashScreen.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -121,6 +128,9 @@
     <EmbeddedResource Include="frmSettings.resx">
       <DependentUpon>frmSettings.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmSplashScreen.resx">
+      <DependentUpon>frmSplashScreen.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
@@ -146,6 +156,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="ico.ico" />
+    <None Include="Resources\banner.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

@@ -22,6 +22,11 @@ GifRecorder
   Ressourcenzuordnungen, die diese stark typisierte Ressourcenklasse verwenden.
 </summary>
 </member>
+<member name="P:GifRecorder.My.Resources.Resources.banner">
+<summary>
+  Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:GifRecorder.My.Resources.Resources.encoding">
 <summary>
   Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
