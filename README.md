@@ -40,4 +40,4 @@ Use under Windows 7, 8, 8.1, 10 with .Net-Framework 4.1
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/clusterzx/GifRecorder/blob/master/LICENSE) file for details
