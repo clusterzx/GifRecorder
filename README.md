@@ -25,7 +25,6 @@ Use under Windows 7, 8, 8.1, 10 with .Net-Framework 4.1
 ## Built With
 
 * [Visual Studio 2017](https://www.visualstudio.com/) - Rich IDE, advanced debugging
-* [LOVE](https://bech0r.net/) - <3
 
 ## Used librarys and 3rd party tools
 
