@@ -16,7 +16,6 @@ Clone / Download Project files
 
 Recorded with GifRecorder 2.0
 
-![preview](https://i.imgur.com/TZMKdDr.gif)
 
 
 ## Deployment
